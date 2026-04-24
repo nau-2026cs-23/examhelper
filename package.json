@@ -1,7 +1,7 @@
 {
-  "name": "Omniflow fullstack Product",
-  "version": "1.0.0",
-  "description": "",
+  "name": "Omniflow fullstack Product v2",
+  "version": "1.0.1",
+  "description": "Enhanced version of Omniflow fullstack Product",
   "main": "server.ts",
   "scripts": {
     "dev": "tsx watch backend/server.ts",
@@ -12,7 +12,7 @@
     "lint": "eslint .",
     "db:push": "NODE_TLS_REJECT_UNAUTHORIZED=0 npx drizzle-kit push"
   },
-  "keywords": [],
+  "keywords": ["omniflow", "v2"],
   "author": "",
   "license": "ISC",
   "dependencies": {
