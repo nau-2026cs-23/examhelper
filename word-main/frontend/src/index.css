@@ -1,0 +1,45 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: oklch(0.98 0.005 240);
+  --color-foreground: oklch(0.15 0.02 240);
+  --color-card: oklch(1 0 0);
+  --color-card-foreground: oklch(0.15 0.02 240);
+  --color-popover: oklch(1 0 0);
+  --color-popover-foreground: oklch(0.15 0.02 240);
+  --color-primary: oklch(0.52 0.18 255);
+  --color-primary-foreground: oklch(0.98 0.005 255);
+  --color-secondary: oklch(0.94 0.02 240);
+  --color-secondary-foreground: oklch(0.25 0.04 240);
+  --color-muted: oklch(0.95 0.01 240);
+  --color-muted-foreground: oklch(0.5 0.02 240);
+  --color-accent: oklch(0.93 0.04 255);
+  --color-accent-foreground: oklch(0.25 0.08 255);
+  --color-destructive: oklch(0.55 0.22 25);
+  --color-destructive-foreground: oklch(0.98 0.005 25);
+  --color-border: oklch(0.88 0.01 240);
+  --color-input: oklch(0.88 0.01 240);
+  --color-ring: oklch(0.52 0.18 255);
+  --radius: 0.625rem;
+  --color-sidebar-background: oklch(0.97 0.008 240);
+  --color-sidebar-foreground: oklch(0.25 0.04 240);
+  --color-sidebar-primary: oklch(0.52 0.18 255);
+  --color-sidebar-primary-foreground: oklch(0.98 0.005 255);
+  --color-sidebar-accent: oklch(0.93 0.04 255);
+  --color-sidebar-accent-foreground: oklch(0.25 0.08 255);
+  --color-sidebar-border: oklch(0.88 0.01 240);
+  --color-sidebar-ring: oklch(0.52 0.18 255);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+}
