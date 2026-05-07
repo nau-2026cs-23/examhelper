@@ -1,8 +1,17 @@
+# Dependencies
 node_modules/
+
+# Build outputs
 dist/
-.env
-.env.local
-*.log
-.DS_Store
 .vite/
 .cache/
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+
+# OS files
+.DS_Store

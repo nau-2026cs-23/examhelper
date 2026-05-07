@@ -1,14 +1,19 @@
 {
   "compilerOptions": {
+    /* Language and Environment */
     "target": "ES2022",
     "module": "CommonJS",
     "moduleResolution": "node",
     "esModuleInterop": true,
+    
+    /* Strict Checks */
     "strict": false,
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "noImplicitAny": false,
     "noFallthroughCasesInSwitch": false,
+    
+    /* Build Options */
     "skipLibCheck": true,
     "outDir": "dist",
     "allowJs": true,

@@ -2,6 +2,10 @@
 
 A full-stack intelligent exam schedule reminder system for university students.
 
+## Overview
+
+This application helps students manage their exam schedules, track tasks, and receive timely reminders.
+
 ## Project Structure
 
 ```

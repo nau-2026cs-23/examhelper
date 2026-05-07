@@ -2,6 +2,7 @@ import js from "@eslint/js";
 import globals from "globals";
 import tseslint from "typescript-eslint";
 
+/** @type {import('eslint').Linter.Config[]} */
 export default tseslint.config(
   { ignores: ["dist", "frontend", "node_modules"] },
   {

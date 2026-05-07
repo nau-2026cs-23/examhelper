@@ -1,6 +1,7 @@
 {
   "version": 2,
-  "builds": [{
+  "builds": [
+    {
       "src": "backend/server.ts",
       "use": "@vercel/node",
       "config": {
@@ -18,7 +19,8 @@
       }
     }
   ],
-  "rewrites": [{
+  "rewrites": [
+    {
       "source": "/api/(.*)",
       "destination": "/backend/server.ts"
     },
